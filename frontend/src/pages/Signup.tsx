@@ -16,8 +16,6 @@ export default function Signup() {
 
   const submit = async (data: any) => {
     console.log("Form data:", data);
-    
-    // Zod validation: if invalid, show inline field errors instead of alert
     const parsed = SignupSchema.safeParse(data);
     console.log("Zod validation result:", parsed);
     
