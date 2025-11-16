@@ -1,24 +1,23 @@
 # Todo App
 
-A simple full-stack todo app made with React, TypeScript, Node.js, Express, and MongoDB.  
-It includes signup/login, password reset, dark mode, and a clean dashboard.
 
----
-
-## Features
 
 - Signup, login, and password reset  
+
+Below are screenshots of the app — place the image files under `frontend/public/screenshots/` (or `docs/screenshots/`) and they will render here.
+
+### Signup (dark mode)
+
+![Signup screen](frontend/public/screenshots/signup.png)
+
+### Dashboard (todos)
+
+![Dashboard screen](frontend/public/screenshots/dashboard.png)
+
+If you want, I can add the actual image files into the repository for you; tell me if you'd like me to save them to `frontend/public/screenshots/`.
 - Add, edit, delete, and view todos  
 - Dark mode toggle  
 - Works on all screen sizes  
-- Smooth animations  
-- TypeScript used on both frontend and backend  
-- Protected routes (only logged-in users can access todos)  
-- Form validation using Zod  
-- API client adds auth token automatically  
-- React Query for caching and server state  
-
----
 
 # Project structure
 
